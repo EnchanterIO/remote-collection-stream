@@ -2,7 +2,7 @@
     "name": "trkisf2/remote-collection-stream",
     "description" : "Continuously streams remote collection in user defined chunks and yields them using Generators.",
     "keywords" : [
-        "Generators, Yield, MySQL Iterator, Remote collection stream"
+        "Generators", "Yield", "MySQL Iterator", "Remote collection stream"
     ],
     "authors": [
         {
