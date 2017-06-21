@@ -1,0 +1,24 @@
+{
+    "name": "trkisf2/remote-collection-stream",
+    "description" : "Continuously streams remote collection in user defined chunks and yields them using Generators.",
+    "keywords" : [
+        "Generators, Yield, MySQL Iterator, Remote collection stream"
+    ],
+    "authors": [
+        {
+            "name": "Lukas Lukac",
+            "email": "services@trki.sk"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "RemoteCollectionStream\\" : "src/RemoteCollectionStream/"
+        }
+    }
+}
