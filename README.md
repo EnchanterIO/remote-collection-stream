@@ -5,6 +5,8 @@ Continuously streams remote collection in user defined chunks and yields them us
 # Usage
 
 ```php
+$stream = new Stream();
+
 $campaignsCollectionGenerator = $stream->stream(
     new StreamConfiguration(self::BATCH_FETCH_SIZE_CAMPAIGNS),
     function ($offset, $limit) use ($job) {
